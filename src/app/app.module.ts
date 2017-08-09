@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { TcModule } from 'threatconnect-ng/main';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TcModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
